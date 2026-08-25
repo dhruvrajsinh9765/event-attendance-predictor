@@ -69,8 +69,6 @@ cd streamlit_app && streamlit run app.py     # launches the demo app
 
 ## Project structure
 
-## Project structure
-
 ```text
 event-attendance-predictor/
 │

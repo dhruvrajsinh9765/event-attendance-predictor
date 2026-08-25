@@ -69,15 +69,22 @@ cd streamlit_app && streamlit run app.py     # launches the demo app
 
 ## Project structure
 
-.
+## Project structure
+
+```text
+event-attendance-predictor/
+│
 ├── data/
-│ ├── train.csv
-│ ├── test.csv
-│ └── test_predictions.csv
+│   ├── train.csv
+│   ├── test.csv
+│   └── test_predictions.csv
+│
 ├── streamlit_app/
-│ ├── app.py
-│ └── model.joblib
-├── train_model.py
-├── requirements.txt
+│   ├── app.py
+│   └── model.joblib
+│
 ├── .gitignore
-└── README.md
+├── README.md
+├── requirements.txt
+└── train_model.py
+```
